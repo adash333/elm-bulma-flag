@@ -10,7 +10,7 @@ import Html.Events exposing (onClick)
 ---- PROGRAM ----
 
 
-main : Program Int Model Msg
+main : Program Flags Model Msg
 main =
     Browser.element
         { init = init
